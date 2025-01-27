@@ -1,0 +1,63 @@
+{
+    "inbounds": [
+      {
+        "port": 1990,
+        "protocol": "vmess",
+        "settings": {
+          "clients": [
+            {
+              "id": "xxx",
+              "level": 1,
+              "alterId": 0
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "path": "/xxx",
+            "headers": {
+              "Host": "inrenping.icu"
+            }
+          }
+        },
+        "listen": "127.0.0.1"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {},
+        "tag": "blocked"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {},
+        "tag": "adblock"
+      }
+    ],
+    "routing": {
+      "rules": [
+        {
+          "type": "field",
+          "outboundTag": "adblock",
+          "domain": [
+            "twitter.com",
+            "x.com"
+          ]
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "blocked"
+        }
+      ]
+    }
+  }
+  
