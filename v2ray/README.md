@@ -27,6 +27,10 @@ journalctl -u v2ray
 journalctl -u v2ray |tail -n 50
 ~~~
 
+# 锁定配置文件只读，不要乱改了。
+
+`chattr +i example.txt`
+
 # 常用命令
 
 - 查看服务状态
