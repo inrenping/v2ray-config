@@ -1,1 +1,1 @@
-TODO 增加一份屏蔽网站的名单
+It is a nginx config file .
