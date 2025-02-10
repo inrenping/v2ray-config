@@ -6,7 +6,7 @@
       "settings": {
         "clients": [
           {
-            "id": "xxx",
+            "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
             "level": 1,
             "alterId": 0
           }
@@ -141,7 +141,8 @@
           "domain:haydnkruger.com",
           "domain:shengmuyuan.com",
           "domain:eventjio.com",
-          "domain:gq1vomal97.com"
+          "domain:gq1vomal97.com",
+          "domain:csb7.com"
         ]
       },
       {
