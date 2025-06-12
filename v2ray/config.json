@@ -46,11 +46,12 @@
         "type": "field",
         "outboundTag": "adblock",
         "domain": [
+          "cn.pornhub.com",
           "twitter.com",
           "x.com",
           "domain:twitter.com",
           "domain:x.com",
-          "domain:pronhub.com  ",
+          "domain:pronhub.com",
           "domain:xvideos.com",
           "domain:xvideos-cdn.com",
           "domain:xhamster.com",
@@ -142,7 +143,19 @@
           "domain:shengmuyuan.com",
           "domain:eventjio.com",
           "domain:gq1vomal97.com",
-          "domain:csb7.com"
+          "domain:csb7.com",
+          "domain:jable.one",
+          "domain:qianav.one",
+          "domain:55666.cfd",
+          "domain:dnaav.com",
+          "domain:634.tv",
+          "domain:tianav.com",
+          "domain:tianav.cc",
+          "domain:missav.app",
+          "domain:missav02.cc",
+          "domain:tokyomotion.net",
+          "domain:wntheme.com",
+          "domain:thts2.top"
         ]
       },
       {
