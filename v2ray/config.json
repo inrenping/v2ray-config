@@ -47,11 +47,10 @@
         "outboundTag": "adblock",
         "domain": [
           "cn.pornhub.com",
-          "twitter.com",
-          "x.com",
           "domain:twitter.com",
           "domain:x.com",
           "domain:pronhub.com",
+          "domain:cn.pronhub.com",
           "domain:xvideos.com",
           "domain:xvideos-cdn.com",
           "domain:xhamster.com",
@@ -155,7 +154,10 @@
           "domain:missav02.cc",
           "domain:tokyomotion.net",
           "domain:wntheme.com",
-          "domain:thts2.top"
+          "domain:thts2.top",
+          "domain:pornlulu.com",
+          "domain:naykhutx.top",
+          "domain:91cg1.com"
         ]
       },
       {
